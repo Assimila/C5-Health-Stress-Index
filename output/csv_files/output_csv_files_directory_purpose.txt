@@ -1,0 +1,1 @@
+This directory is an optional location to store summary tables as csv files when the make_GFS_tables_and_graphs.py script is run.
