@@ -2,5 +2,9 @@
 *.grib
 *.grib2
 
+# Output files
+*.png
+*.csv
+
 # Idea folder
 *.idea/*
