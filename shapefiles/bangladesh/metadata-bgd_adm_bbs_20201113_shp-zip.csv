@@ -1,0 +1,14 @@
+Field,Label,Value
+created,Created,2018-04-25T05:46:56.297418
+description,Description,Bangladesh administrative level 0-4 boundary shapefiles
+format,File Format,SHP
+download_url,Download URL,https://data.humdata.org/dataset/401d3fae-4262-48c9-891f-461fd776d49b/resource/08736818-ae72-44a9-abd6-a51915c24921/download/bgd_adm_bbs_20201113_shp.zip
+id,Resource ID,08736818-ae72-44a9-abd6-a51915c24921
+last_modified,Updated,2020-11-17T09:07:49.697972
+metadata_modified,Metadata Updated,2023-11-08T22:08:14.245835
+microdata,Microdata,False
+dataset_id,Dataset ID,401d3fae-4262-48c9-891f-461fd776d49b
+resource_type,Resource Type,file.upload
+name,Resource Name,bgd_adm_bbs_20201113_SHP.zip
+mimetype,MIME Type,application/x-zip-compressed
+size,Size,186.6M
