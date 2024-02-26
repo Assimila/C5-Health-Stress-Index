@@ -50,7 +50,6 @@ def get_compass_direction(coord_value, lat_or_lon):
 
 
 def make_output_filename(parameters, atm_level, n_lat, s_lat, w_lon, e_lon, timestep, fcast_date, fcast_time):
-
     param_string = '_'.join(parameters)
 
     n_string = get_compass_direction(n_lat, 'lat')
@@ -64,8 +63,7 @@ def make_output_filename(parameters, atm_level, n_lat, s_lat, w_lon, e_lon, time
 
 
 def make_link(parameters, atm_level, n_lat, s_lat, w_lon, e_lon, timestep, fcast_date, fcast_time):
-
-    param_string = '=on&var_'+'=on&var_'.join(parameters)
+    param_string = '=on&var_' + '=on&var_'.join(parameters)
 
     fcast_filename = f"https://nomads.ncep.noaa.gov/cgi-bin/filter_gfs_0p50.pl?file=gfs.t{fcast_time:02d}z.pgrb2full.0p50.f{timestep:03d}&lev_{atm_level}{param_string}=on&subregion=&leftlon={w_lon}&rightlon={e_lon}&toplat={n_lat}&bottomlat={s_lat}&dir=%2Fgfs.{fcast_date.replace('-', '')}%2F{fcast_time:02d}%2Fatmos"
 
@@ -76,8 +74,8 @@ def make_link(parameters, atm_level, n_lat, s_lat, w_lon, e_lon, timestep, fcast
 # Set custom values
 ########################################################################################################################
 # Output directory
-forecast_date = "2024-02-23" # yyyy-mm-dd format
-forecast_time = 18 # 0, 6, 12 or 18
+forecast_date = "2024-02-23"  # yyyy-mm-dd format
+forecast_time = 18  # 0, 6, 12 or 18
 download_directory_path = f"/path/to/relevant/directory"
 
 # Subregion
