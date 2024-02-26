@@ -1,0 +1,1 @@
+This directory is an optional location to store forecast files when the download_gfs_forecast_files.py script is run. 
