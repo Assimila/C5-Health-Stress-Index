@@ -76,7 +76,10 @@ def make_link(parameters, atm_level, n_lat, s_lat, w_lon, e_lon, timestep, fcast
 # Output directory
 forecast_date = "2024-02-23"  # yyyy-mm-dd format
 forecast_time = 18  # 0, 6, 12 or 18
-download_directory_path = f"/path/to/relevant/directory"
+download_directory_path = f"./forecast_files/fc_{forecast_date}T{forecast_time:02d}"
+
+# Whether to make output directory
+make_directory = True
 
 # Subregion
 north_lat = 27
