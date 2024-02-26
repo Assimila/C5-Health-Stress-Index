@@ -1,0 +1,8 @@
+Subset of data downloaded from the Humanitarian Data Exchange (HDX). 
+
+https://data.humdata.org/dataset/cod-ab-bgd?
+
+Metadata of original zip file (containing administative districts at all levels) contained in ./metadata-bgd_adm_bbs_20201113_shp-zip.csv .
+
+
+
