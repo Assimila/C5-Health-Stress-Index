@@ -626,7 +626,8 @@ if __name__ == "__main__":
     ####################################################################################################################
     # Set date and file paths
     ####################################################################################################################
-    # Forecast initialisation date and time
+    # Forecast initialisation date and time - data for this date must already be downloaded in grib file format in an
+    # accessible directory. Data can be downloaded by running download_gfs_forecast_files.py.
     forecast_date = '2024-02-23'  # format YYYY-mm-dd
     forecast_timestep = 18  # 0, 6, 12 or 18
 
